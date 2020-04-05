@@ -10,14 +10,14 @@ As it stands, it's ready to use on GitHub Pages.
 To add your own text to the site, you've got to edit `_layout/default.html` (Markdown editing to be added soon, hopefully).
 
 
-To add your images, 
+Add images to the site on `images`. 
 
 ### Added features
 
 * [Formspree](https://formspree.io/) integration should work automatically as soon as your email is added to the config file.
 * [WhatsApp](https://api.whatsapp.com) integration works as soon as your phone is added to the config file.
    If you wish to remove either of these, Formspree integration can be removed on line 7 of `include/message.html`, while the WhatsApp link to your number can be removed on line 9.
-* Social media links are all configured in `_config.yml`. 
+* Add your social profiles to `_config.yml`. Only the ones you add to the config file will show up on the site footer. (Credits to [Andrew Banchich](https://github.com/andrewbanchich) for this idea).
    If you wish to remove one of them (or add a new one!), you can edit the social media's respective link in `_include/footer.html`.
   
 ### To be added
