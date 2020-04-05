@@ -1,0 +1,20 @@
+## Config file
+## github.com/vrmiguel/paradigm_shift_jekyll_theme
+
+  # Site info
+title: Paradigm Shift
+author: YourName
+description: >
+  A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a>
+email: information@untitled.ext
+phone: (000) 000-0000
+address: 1234 Somewhere Road, Nashville, TN 00000
+
+  # Social media info -- If you don't want to use one of these, delete its respective line in footer.html
+
+twitter:   https://www.twitter.com/vini_bourbaki
+facebook:  https://www.facebook.com/yourpagehere
+instagram: https://www.instagram.com/yourpagehere
+linkedin:  https://www.linkedin.com/yourpagehere
+github:    https://www.github.com/vrmiguel
+codepen:   https://codepen.io/yourpagehere
