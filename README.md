@@ -15,13 +15,13 @@ To add your images,
 ### Added features
 
 * [Formspree](https://formspree.io/) integration should work automatically as soon as your email is added to the config file.
-* WhatsApp integration works as soon as your phone is added to the config file.
-** If you wish to remove either of these, Formspree integration can be removed on line 7 of `include/message.html`, while the WhatsApp link to your number can be removed on line 9.
+* [WhatsApp](https://api.whatsapp.com) integration works as soon as your phone is added to the config file.
+   If you wish to remove either of these, Formspree integration can be removed on line 7 of `include/message.html`, while the WhatsApp link to your number can be removed on line 9.
 * Social media links are all configured in `_config.yml`. 
-  ** If you wish to remove one of them (or add a new one!), you can edit the social media's respective link in `_include/footer.html`.
+   If you wish to remove one of them (or add a new one!), you can edit the social media's respective link in `_include/footer.html`.
   
 ### To be added
-* Be able to edit the site's content through markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```.
+* Be able to edit the site's content through Markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```.
 
 # Credits / License
 
