@@ -15,6 +15,9 @@ To add your actual content to the site, you've got to edit `_layout/default.html
 ** If you wish to remove this integration, it's available on line 7 of `include/message.html`.
 * Social media links are all configured in `_config.yml`. 
   ** If you wish to remove one of them (or add a new one!), you can edit the social media's respective link in `_include/footer.html`.
+  
+### To be added
+* Be able to edit the site's content through markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```.
 
 # Credits / License
 
