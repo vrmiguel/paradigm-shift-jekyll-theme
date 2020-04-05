@@ -15,12 +15,24 @@
 								<li>
 									<h3>Elsewhere</h3>
 									<ul class="icons">
+										{% if site.twitter %}
 										<li><a href="{{ site.twitter }}" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										{% endif %}
+										{% if site.facebook %}
 										<li><a href=" {{ site.facebook }} " class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										{% endif %}
+										{% if site.instagram %}
 										<li><a href=" {{ site.instagram }} " class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										{% endif %}
+										{% if site.linkedin %}
 										<li><a href=" {{ site.linkedin }} " class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										{% endif %}
+										{% if site.github %}
 										<li><a href=" {{ site.github }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										{% endif %}
+										{% if site.codepen %}
 										<li><a href=" {{ site.codepen }} " class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
+										{% endif %}
 									</ul>
 								</li>
 							</ul>
