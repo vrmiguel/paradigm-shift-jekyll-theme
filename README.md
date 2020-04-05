@@ -7,7 +7,10 @@ You can see how it looks [here](https://vrmiguel.github.io/paradigm-shift-jekyll
 You can use this theme locally by commenting `gem "github-pages", "~> 3.8.5"` on `Gemfile` and, uncommenting `gem "jekyll"`.
 As it stands, it's ready to use on GitHub Pages.
 
-To add your actual content to the site, you've got to edit `_layout/default.html` (Markdown editing to be added soon, hopefully).
+To add your own text to the site, you've got to edit `_layout/default.html` (Markdown editing to be added soon, hopefully).
+
+
+To add your images, 
 
 ### Added features
 
@@ -61,3 +64,5 @@ Credits:
 ```
 
 As per the original HTML5 UP theme, this code is free under the Creative Commons for personal and commercial use, as long as credit is given.
+
+All images here provided are licensed under [Unsplash](https://unsplash.com/license).
