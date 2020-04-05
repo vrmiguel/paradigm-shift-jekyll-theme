@@ -15,7 +15,8 @@ To add your images,
 ### Added features
 
 * [Formspree](https://formspree.io/) integration should work automatically as soon as your email is added to the config file.
-** If you wish to remove this integration, it's available on line 7 of `include/message.html`.
+* WhatsApp integration works as soon as your phone is added to the config file.
+** If you wish to remove either of these, Formspree integration can be removed on line 7 of `include/message.html`, while the WhatsApp link to your number can be removed on line 9.
 * Social media links are all configured in `_config.yml`. 
   ** If you wish to remove one of them (or add a new one!), you can edit the social media's respective link in `_include/footer.html`.
   
