@@ -1,0 +1,52 @@
+<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="mailto:{{ site.email }}"> {{ site.email }} </a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="https://api.whatsapp.com/send?phone=+ {{ site.phone }}"> {{ site.phone }}</a>
+								</li>
+								<li>
+									<h3>Address</h3>
+									<span> {{ site.address }} </span>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										{% if site.twitter %}
+										<li><a href="{{ site.twitter }}" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										{% endif %}
+										{% if site.facebook %}
+										<li><a href=" {{ site.facebook }} " class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										{% endif %}
+										{% if site.instagram %}
+										<li><a href=" {{ site.instagram }} " class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										{% endif %}
+										{% if site.linkedin %}
+										<li><a href=" {{ site.linkedin }} " class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										{% endif %}
+										{% if site.github %}
+										<li><a href=" {{ site.github }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										{% endif %}
+										{% if site.codepen %}
+										<li><a href=" {{ site.codepen }} " class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
+										{% endif %}
+									</ul>
+								</li>
+							</ul>
+						</footer>
+
+<!-- Copyright -->
+					<div class="copyright">&copy; {{ site.author }}. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration by <a href="https://github.com/vrmiguel">Vinícius R. Miguel</a></div>
+
+<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
