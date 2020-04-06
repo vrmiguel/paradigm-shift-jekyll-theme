@@ -20,7 +20,7 @@ Add images to the site on `images`.
 * Add your social profiles to `_config.yml`. Only the ones you add to the config file will show up on the site footer. Credits to [Andrew Banchich](https://github.com/andrewbanchich) for this idea.
   
 ### To be added
-* Be able to edit the site's content through Markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```.
+* Be able to edit the site's content through Markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```. (Kind of working on the **testing** branch)
 
 # Credits / License
 
