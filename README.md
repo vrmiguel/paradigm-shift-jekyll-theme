@@ -15,12 +15,10 @@ Add images to the site on `images`.
 ### Added features
 
 * [Formspree](https://formspree.io/) integration should work automatically as soon as your email is added to the config file.
+* You can now edit the page's content through the Markdown files on the project's root directory, starting by `first.md`.
 * [WhatsApp](https://api.whatsapp.com) integration works as soon as your phone is added to the config file.
    If you wish to remove either of these, Formspree integration can be removed on line 7 of `include/message.html`, while the WhatsApp link to your number can be removed on line 9.
 * Add your social profiles to `_config.yml`. Only the ones you add to the config file will show up on the site footer. Credits to [Andrew Banchich](https://github.com/andrewbanchich) for this idea.
-
-### To be added
-* Be able to edit the site's content through Markdown files, in true Jekyll manner, instead of having to tamper with ```default.html```. (Kind of working on the **testing** branch)
 
 # Credits / License
 
