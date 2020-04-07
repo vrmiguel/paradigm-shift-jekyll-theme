@@ -18,7 +18,7 @@
 				{% include intro.html %}
 				{% assign sorted_pages = site.pages | sort:"order" %}
 				{% for page in sorted_pages %}
-				{% if page.title == "index" %}
+				{% if page.layout != "section" %}
 				{% continue %}
 				{% endif %}
 				{% if page.id %}

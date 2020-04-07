@@ -1,5 +1,6 @@
 ---
 title: Ultrices erat magna sed condimentum
+layout: section
 order: 2
 ---
 

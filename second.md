@@ -1,5 +1,6 @@
 ---
 title: Feugiat consequat tempus ultrices
+layout: section
 order: 1
 ---
 
