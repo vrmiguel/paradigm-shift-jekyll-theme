@@ -21,7 +21,7 @@ Add images to the site on `images`. The gallery function is set to work with two
 * You can now edit the page's content through the Markdown files on the project's root directory, starting by `first.md`.
 
 
-* Pages are now ordered. You can decide which page gets included first by setting the `order` priority on the Markdown files.
+* The order in which Markdown files are processed is now ordered. You can decide which page gets included first by setting the `order` priority on each file.
 
 
 * [WhatsApp](https://api.whatsapp.com) integration works as soon as your phone is added to the config file.
