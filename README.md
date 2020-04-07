@@ -29,6 +29,10 @@ Add images to the site on `images`.
 
 * Add your social profiles to `_config.yml`. Only the ones you add to the config file will show up on the site footer. Credits to [Andrew Banchich](https://github.com/andrewbanchich) for this idea.
 
+### Bugs
+
+This repo's [GitHub Page](https://vrmiguel.github.io/paradigm-shift-jekyll-theme/) has an import of jekyll-theme-primer on its first section. This section does not get created when testing locally, but GitHub Pages for some reasons adds it. I don't yet know what's causing this.
+
 # Credits / License
 
 README by HTML5 UP:
