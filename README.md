@@ -7,10 +7,11 @@ You can see how it looks [here](https://vrmiguel.github.io/paradigm-shift-jekyll
 You can use this theme locally by commenting `gem "github-pages", "~> 3.8.5"` on `Gemfile` and, uncommenting `gem "jekyll"`.
 As it stands, it's ready to use on GitHub Pages.
 
-To add your own text to the site, you've got to edit `_layout/default.html` (Markdown editing to be added soon, hopefully).
+You can add your own text to the site by modifying `first.md`, `second.md` and `third.md`, but not limited to. You can add as many Markdown files as you want.
 
 
-Add images to the site on `images`. 
+Add images to the site on `images`. The gallery function is set to work with two versions of the same image, one of them in full size and the other, a thumbnail.
+
 
 ### Added features
 
